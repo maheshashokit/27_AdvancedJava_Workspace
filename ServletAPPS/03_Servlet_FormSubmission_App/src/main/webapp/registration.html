@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>signup.html</title>
+</head>
+<body>
+	<div style="text-align: center;color:red;">Welcome To AshokIT For Course Enquiry Registration......</div>
+	<hr/>
+	<form action="Signup" method="post">
+		<table align="center">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="firstName" placeholder="Enter First Name"/></td>
+			</tr>
+			<tr>
+				<td>EmailID</td>
+				<td><input type="email" name="emailId" placeholder="Enter Email Value"/></td>
+			</tr>
+			<tr>
+				<td>ContactNo</td>
+				<td><input type="text" name="contactNo" placeholder="Enter Contact Number"/></td>
+			</tr>
+			<tr>
+				<td>Courses</td>
+				<td>
+					<select name="course" style="width:100%">
+						<option value="">Select Course</option>
+						<option value="JFSD">Java Full Stack</option>
+						<option value="DFSD">DotNet Full Stack</option>
+						<option value="UIFSD">UI Full Stack</option>
+						<option value="PFSD">Python FullStack</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+			  <td colspan="2">
+				  <div style="margin-left:50px;">
+					  <input type="submit" value="SignUp"/>
+					  <input type="reset" value="Cancel"/>
+				  </div>
+			  </td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
